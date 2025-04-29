@@ -1,0 +1,64 @@
+html{
+    text-align: center;
+}
+body{
+    display: flex;
+    background-color: rgb(186, 187, 186);
+    height: 100vh;
+    width: 100%;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+  
+}
+header{
+    background-image: none;
+    height:10rem;
+    margin: 0;
+    /* background-color: black; */
+    flex-wrap: wrap;
+    width: 100%;
+}
+.car{
+margin-top:2rem ;
+background-color: aliceblue;
+height: 100vh;
+width: 100%;
+max-width: 1000px;
+margin-bottom: 2rem;
+overflow:hidden;
+}
+
+table{
+    width: 100%;
+
+}
+td, th{
+    padding: 5px;
+    border-bottom: 1px solid hsl(0, 0%, 20%,0.2);
+}
+.comprar{
+    background-color: #ccc;
+    color: #8f2d56;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+.comprar:hover{
+    background-color: #ffbc42;
+    color: #fff;
+}
+
+
+
+
+@media (max-width:768px){
+    header{
+        height: 30vh;
+    }
+    .car{
+        top: 15rem;
+    }
+}

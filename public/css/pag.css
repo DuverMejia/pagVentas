@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cdd0d3;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #8f2d56;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  th, td {
+    border: 1px solid #948f8f;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #8f2d56;
+    color: #ffffff;
+  }
+  
+  input[type="text"], input[type="file"] {
+    padding: 5px;
+    width: 90%;
+    box-sizing: border-box;
+  }
+  
+  button.agregar {
+    background-color: #ccc;
+    color: #8f2d56;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  button.agregar:hover {
+    background-color: #ffbc42;
+    color: #fff;
+  }
+  
+  i {
+    margin: 0 5px;
+    cursor: pointer;
+    color: #0077b6;
+  }
+  
+  i.eliminar:hover {
+    color: red;
+  }
+  
+  i.editar:hover {
+    color: green;
+  }
+  
+  td img {
+    max-width: 60px;
+    height: auto;
+  }
+  .opcion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .opc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #8f2d56;
+    margin-left: 20px;
+  }
+  .opc:hover{
+    color: #000;
+  }

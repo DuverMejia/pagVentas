@@ -1,0 +1,35 @@
+{
+  "name": "pagina-de-ventas",
+  "version": "1.0.0",
+  "description": "página de venta de propiedades",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "keywords": [
+    "JavaScript",
+    "MySql",
+    "express",
+    "omr",
+    "html",
+    "Css",
+    "Node.js",
+    "sequelize",
+    "MySql2"
+  ],
+  "author": "@Estudiantes_Sena",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "mysql2": "^3.14.0",
+    "pug": "^3.0.3",
+    "sequelize": "^6.37.7"
+  }
+}
